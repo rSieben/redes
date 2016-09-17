@@ -3,12 +3,16 @@
 #include <iostream>
 #include <WinSock2.h>
 #include <WS2tcpip.h>
+#include <thread>
+#include <random>
+
 
 int main() {
-#ifndef __linux__
+
+	sql::Driver * driver;
+
 	WSAData wsaData;
 	WSAStartup(MAKEWORD(2, 2), &wsaData);
-#endif
 
 	SOCKET principalSocket;
 	principalSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
