@@ -1,0 +1,15 @@
+﻿  Source.cpp
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(175): warning C4251: 'sql::mysql::MySQL_Connection::proxy': class 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(175): note: see declaration of 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>'
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(179): warning C4251: 'sql::mysql::MySQL_Connection::service': class 'boost::scoped_ptr<sql::mysql::MySQL_Statement>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(179): note: see declaration of 'boost::scoped_ptr<sql::mysql::MySQL_Statement>'
+c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(181): warning C4251: 'sql::mysql::MySQL_Connection::intern': class 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\temp\mysql-connector-c++-noinstall-1.1.7-win32\include\mysql_connection.h(181): note: see declaration of 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>'
+  SERVER TCP.vcxproj -> C:\Temp\Visual Studio 2015\Projects\redes\SERVIDOR DE AUTENTICACAO\Debug\SERVER TCP.exe
+  SERVER TCP.vcxproj -> C:\Temp\Visual Studio 2015\Projects\redes\SERVIDOR DE AUTENTICACAO\Debug\SERVER TCP.pdb (Partial PDB)
